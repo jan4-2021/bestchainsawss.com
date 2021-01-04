@@ -1,0 +1,672 @@
+﻿@charset "utf-8";
+/* CSS Document */
+html, body, div, span,    
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,   
+a, abbr, acronym, address, big, cite, code,   
+img, ins, kbd, q, s, samp,   
+small, strike, strong,    
+dl, dt, dd, ol, ul, li,   
+fieldset, form, label, legend,   
+table, caption, tbody, tfoot, thead, tr, th, td {   
+    margin: 0;   
+    padding: 0;   
+    border: 0;   
+    outline: 0;   
+    font-size: 100%;   
+    vertical-align: baselinebaseline;   
+    background: transparent;   
+}   
+body {   
+    line-height: 1; font-family:"宋体";
+	font-size:12px; 
+	color:#392b13; 
+}   
+ol, ul {   
+    list-style: none;   
+}   
+blockquote, q {   
+    quotes: none;   
+}   
+blockquote:before, blockquote:after,   
+q:before, q:after {   
+    content: '';   
+    content: none;   
+}   
+   
+table {   
+    border-collapse: collapse;   
+    border-spacing: 0;   
+}
+li{ list-style:none} 
+a{ text-decoration:none; color:#333;}
+
+/*index*/
+
+body{ color:#000000}
+.line-height{ *line-height:normal}
+.clearfloat{ clear:both}
+
+* {
+-webkit-text-size-adjust:none;
+}
+.arial{ font-family:Arial, Helvetica, sans-serif}
+.bold{ font-weight:bold}
+.wrapper{ width:100%; min-width:1008px}
+
+
+
+/*head*/
+.head{ width:100%; height:110px;}
+.head_top{ width:100%; height:72px; background:#ECECEC}
+.head_top_ul{ display:inline; float:right; margin:32px 5px 0 0}
+.head_top_ul li{ height:14px; line-height:14px; text-indent:12px; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY_index_08.jpg) left 4px no-repeat; _background-position:left 3px; display:inline; float:left; margin-right:21px}
+.head_top_ul li a{ color:#777777}
+.head_top_main{ width:963px; height:100%; margin:0 auto}
+.head_top_main img{ display:inline; float:left}
+.head_bottom{ width:100%; height:41px; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY_index_12.jpg) repeat-x}
+.head_bottom_main{ width:963px; height:100%; margin:0 auto}
+.head_bottom_ul{ height:38px; line-height:38px}
+.head_bottom_ul li{ _width:120px; text-align:center; height:38px; font-size:13px; font-weight:bold; position:relative; z-index:100; display:inline; float:left; margin:0 12px}
+.head_bottom_ul li a{font-family: "微软雅黑"; display:block; height:100%; color:#333333; padding:0 18px; position:relative; z-index:101; margin-top:2px}
+.head_bottom_ul .head_bottom_ul_hover a{ color:#b50a14; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY_index5_05.jpg) repeat-x top;}
+.head_bottom_ul .head_bottom_ul_hover a .a_l{ width:4px; height:100%; position:absolute; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY_index5_03.jpg) no-repeat; left:0;top:0}
+.head_bottom_ul .head_bottom_ul_hover a .a_r{ width:4px; height:100%; position:absolute; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY_index5_07.jpg) no-repeat; right:0;top:0}
+.head_bottom_input{ width:183px; height:19px; line-height:19px; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY_index_22.jpg) no-repeat; border:none; vertical-align:middle; display:inline; float:right; outline:none; *text-indent:1em; margin-top:9px}
+.head_bottom_input:empty{padding-left:1em;}
+.head_bottom_ul li .head_bottom_hover_div{  display:none; height:115px; overflow:hidden; *overflow:visible; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY_index4_05.jpg) repeat-x; position:absolute; top:36px; left:-102px; z-index:100}
+.head_bottom_ul li .head_bottom_hover_div_l{ width:5px; height:100%; position:absolute; left:0; bottom:0; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY_index4_03.jpg) no-repeat; *background:none}
+.head_bottom_ul li .head_bottom_hover_div_r{ width:5px; height:100%; position:absolute; right:0; bottom:0; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY_index4_07.jpg) no-repeat; *background:none}
+.head_bottom_ul li .head_bottom_hover_div ul{ display:inline; float:left; height:113px; margin-top:1px}
+.head_bottom_ul li .head_bottom_hover_div ul li{ width:115px; height:100%; display:inline; float:left; margin:0}
+.head_bottom_ul li .head_bottom_hover_div ul li a{ background:none; padding:0; margin:0;padding-top:8px;}
+.head_bottom_ul li .head_bottom_hover_div ul li .nav_img{ width:100%; height:77px; line-height:77px; text-align:center}
+.head_bottom_ul li .head_bottom_hover_div ul li .nav_content{ width:100%; height:20px; text-align:center; font-size:13px; font-weight:bold; line-height:normal}
+.head_bottom_ul li .head_bottom_hover_div ul li .nav_content a{color:#333333}
+.background1{*background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY_index4_03.jpg) left no-repeat}
+.background2{*background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY_index4_07.jpg) right no-repeat}
+
+
+
+
+
+/*mid*/
+/*.middle{ width:100%; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY_index_29.jpg) repeat-x}
+.banner_index{ width:1440px; height:418px; position:relative; margin:0 auto}
+.banner_btn{ height:10px; position:absolute; right:0; bottom:21px}
+.banner_btn img{ display:inline; float:left; margin-left:5px}
+.middle_main_tt{ width:100%; height:34px; line-height:34px; border-top:1px solid #D8D8D8; background:#F0F0F0}
+.middle_main_tt_wrapper{ width:963px; height:100%; margin:0 auto}
+.middle_main_tt1{ color:#ab1600; font-size:14px; font-weight:bold}
+.middle_main_tt2{ color:#333333}
+.middle_main_tt_right{ height:34px; line-height:34px; color:#8c8c8c; vertical-align:middle; display:inline; float:right}
+.middle_main_tt_right img{ margin-bottom:-6px; *position:relative; *bottom:-4px; _bottom:-6px}
+.middle_main{ width:100%; height:239px; overflow:hidden; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY_index_54.jpg) repeat-x}
+.middle_main_ul{ width:963px; height:202px; margin:19px auto}
+.middle_main_ul li{ width:228px; height:200px; background:#F8F8F8; border:1px solid #FFFFFF; display:inline; float:left; margin-right:14px}
+.middle_main_li_box1{ width:100%; height:104px; position:relative}
+.more_index{ width:50px; height:20px; position:absolute; z-index:100; right:1px; bottom:0; _bottom:5px;}
+.middle_main_li_box2{ width:100%; height:95px; border-top:1px solid #FFFFFF}
+.middle_main_li_box2 p{ color:#666666; line-height:24px; padding:10px 17px 0 17px}*/
+.middle{ width:100%; overflow:hidden; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/yf_index_bj.jpg) top repeat-x; position:relative; }
+.banner_index{ /*width:1440px;*/ height:422px; position:relative; overflow:hidden; margin:0 auto}
+.banner_btn{ height:10px; position:absolute; /*right:40px;*/right:15%; bottom:21px}
+.banner_btn span{ width:10px; height:10px; display:inline; float:left; cursor:pointer; position:relative; margin-left:5px}
+.banner_btn img{ display:inline; float:left; cursor:pointer; position:absolute;height:10px; }
+.middle_main_tt{ width:100%; height:34px; line-height:34px; border-top:1px solid #D8D8D8; background:#F0F0F0}
+.middle_main_tt_wrapper{ width:963px; height:100%; margin:0 auto}
+.middle_main_tt1_box{ height:34px; line-height:34px; display:inline; float:left}
+.middle_main_tt1{ color:#ab1600; font-size:14px; font-weight:bold}
+.middle_main_tt2_box{ height:34px; width:700px; line-height:36px; display:inline; float:left; position:relative; overflow:hidden}
+.middle_main_tt2_box ul{ position:absolute; top:0}
+.middle_main_tt2_box li{ height:34px; line-height:34px; overflow:hidden}
+.middle_main_tt2_box li a:hover{ text-decoration:underline}
+.middle_main_tt2{ color:#333333}
+
+
+
+
+.middle_main_tt_right{ height:34px; line-height:34px; color:#8c8c8c; vertical-align:middle; display:inline; float:right}
+.middle_main_tt_right img{ margin-bottom:-6px; *position:relative; *bottom:-4px; _bottom:-6px}
+.middle_main{ width:100%; /*height:319px;*/ overflow:hidden; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY_index_54.jpg) repeat-x}
+.middle_main_ul{ width:963px; /*height:252px;*/ margin:19px auto;}
+.middle_main_ul li{ width:228px; height:241px; background:#F8F8F8; border:1px solid #FFFFFF; display:inline; float:left; margin-right:0px}
+.middle_main_li_box1{ width:100%; height:160px; position:relative}
+.more_index{ width:50px; height:20px; position:absolute; z-index:100; right:0; bottom:0}
+.middle_main_li_box2{ width:100%; height:75px; overflow: hidden; border-top:1px solid #FFFFFF}
+.middle_main_li_box2 p{ color:#666666; line-height:22px; padding:5px 10px 0 10px}
+
+
+
+
+/*foot*/
+.foot{ width:100%; height:257px; background:#FFFFFF}
+.foot_top{ width:100%; overflow:hidden; height:193px}
+.foot_top_main{ width:963px; height:100%; overflow:hidden; margin:0 auto}
+.foot_ul{ width:133px; display:inline; float:left; margin:21px 45px 0 10px; overflow:hidden}
+.foot_ul .foot_ul_tt{ text-indent:6px; font-size:13px; font-weight:bold; margin-bottom:16px}
+.foot_ul li{ width:100%; color:#555555; margin-bottom:10px}
+.foot_ul li a{color:#555555}
+
+
+
+.foot_bottom{ width:100%; height:63px; border-top:1px solid #D8D8D8}
+.foot_bottom_main{ width:963px; height:100%; overflow:hidden; color:#727272; line-height:46px; margin:0 auto}
+.foot_bottom_p a{ color:#727272}
+.foot_bottom_span{ display:inline; float:right}
+
+/*end index*/
+
+
+/*2*/
+.yf_banner_summary{width:963px; margin:0 auto; line-height:20px; color:#656566; }
+.yf_banner_summary p{margin:25px 0 25px 0;}
+.yf_2_main{ margin:7px 0 7px 0; overflow:hidden;}
+.yf_2_main li{ float:left; width:240px; height:170px; margin:0 0 0 9px;_margin-left:5px; position:relative;} 
+.yf_2_main li img{ border:1px solid #fff; width:238px;height:168px;}
+.yf_2_main li a.yf_2xx{ display:block; width:50px; height:20px; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/yf_2_xx.png) no-repeat; position:absolute; 
+right:1px; bottom:1px;_bottom:4px;}
+
+
+/*3.2*/
+.yf_main3_2{ width:640px; padding:40px 40px 0 45px; min-height:650px; height:auto;  _height:650px; float:left; background:#fff;}
+.yf_main3_2_pic{margin:42px 0 0 -15px; _margin-left:-85px;}
+.yf_main3_2_pic li{float:left; margin-left:70px;}
+.yf_main3_2 p{ color:#434343; line-height:24px;}
+
+
+
+/*4.1*/
+.banner4_1{ height:436px; position:relative}
+.banner4_1 p{ color:#898888; position:absolute; top:18px; left:0; _line-height:15px;}
+.banner4_1 p a{ color:#898888}
+.middle4_1{ background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/yf_2_bj.jpg) top repeat}
+
+.head_bottom4{ background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY4_06.jpg) repeat-x}
+.middle_main4_1{ height:auto;_height:916px; background:#DCDCDC; position:relative; overflow:hidden}
+.middle_main4_1_t{ width:100%; height:10px; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY4_1_08.jpg) repeat-x top;_background:none; position:absolute; top:0}
+.middle_main4_1_b{ width:100%; height:11px; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY4_1_30.jpg) repeat-x bottom;_background:none; position:absolute; bottom:0}
+
+
+.main4_1_wrapper{ width:1000px; height:auto;_height:676px; overflow:hidden; margin:15px auto; *padding-top:15px;}
+.main4_1{ width:725px; height:886px; display:inline; float:left}
+.main4_1_tt{ width:100%; position:relative; overflow:hidden; height:120px}
+.main4_1_tt .main4_1_tt_box{ height:120px; display:inline; float:left}
+.main4_1_tt .main4_1_tt_box_hover{ background:#FFFFFF}
+.main4_1_tt .main4_1_tt_box img{ border:1px solid #FFFFFF; position:relative; cursor:pointer; display:block; margin:4px auto}
+.main4_1_content{ width:100%; min-height:766px;height:auto;_height:500px; display:none;  background:#FFFFFF}
+.main4_1_content_nav{ width:890px; height:25px; overflow:hidden; margin:29px 0 0 38px}
+.main4_1_content_nav div{ width:106px; height:25px; line-height:25px; text-align:center; color:#FFFFFF; font-size:13px; font-weight:bold;  cursor:pointer; background:#555555; display:inline; float:left; margin-right:2px}
+.main4_1_content_nav .main4_1_content_nav_hover{ background:#AB1600}
+.main4_1_content_ul{ width:652px; margin:23px 0 0 38px;}
+.main4_1_content_ul li{ width:100%; height:95px; overflow:hidden; margin-bottom:43px;_margin-top:23px;}
+.main4_1_content_ul li .main4_1_content_li_img{ width:130px; height:95px; display:inline; float:left}
+.main4_1_content_ul li p{ width:502px; height:95px; line-height:19px; color:#666666; display:inline; float:left; padding-left:20px}
+.main4_1_content_ul li p .main4_1_content_ul_a{ font-size:14px; line-height:24px; font-weight:bold; color:#ab1600; display:block}
+.main4_1_content_ul li p .main4_1_content_ul_time{ font-family:Arial, Helvetica, sans-serif; line-height:16px; color:#CCCCCC; display:block}
+.main4_1_content_ul li p .more4_1{ display:inline; float:right; color:#ab1600; margin-right:7px}
+
+
+.main4_1_right{ width:230px; height:auto; display:inline; float:left; margin-left:9px}
+
+.main4_1_right_img{ width:230px; height:74px; display:block;  margin-bottom:11px}
+.main4_1_right_img img{ border:1px solid #FFFFFF}
+.main4_1_right_tt{ width:228px; height:35px; line-height:35px; color:#ab1600; font-weight:bold; text-indent:17px; background:#F8F8F8; border:1px solid #FFFFFF; margin-bottom:1px}
+.main4_1_right_main{ width:228px; height:auto; min-height:590px;_height:590px; background:#F8F8F8; border:1px solid #FFFFFF}
+.main4_1_right_main_ul{ width:193px; margin:22px auto}
+.main4_1_right_main_ul li{ margin-bottom:15px}
+.main4_1_right_main_ul li p{ line-height:16px; text-indent:1em; color:#666666; }
+.main4_1_right_main_ul li p a{ color:#666666;float:left;_display:inline;background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY4_1_37.jpg) no-repeat left 6px;}
+.main4_1_right_main_ul li p span{ display:inline; float:right; margin-right:6px}
+
+
+
+/*end 4.1*/
+
+
+
+
+/*4.2*/
+.main4_2_tt{ width:100%; height:29px; background:#fff;  border-bottom:1px solid #C3C3C3}
+.main4_2_tt ul{ margin-left:0px;}
+.main4_2_tt ul li{ width:106px; height:29px; position:relative; display:inline; float:left; font-size:13px; font-weight:bold; text-align:center; line-height:29px; color:#5c5757; cursor:pointer}
+.main4_2_tt ul li span{ *display:block;}
+.main4_2_tt ul li img{ position:absolute; left:0; z-index:-1}
+.main4_2_tt ul .hover1{ z-index:6}
+.main4_2_tt ul .hover2{ margin-left:-5px; z-index:5}
+.main4_2_tt ul .hover3{ margin-left:-5px; z-index:4}
+.main4_2_tt ul .hover4{ margin-left:-5px; z-index:3}
+.main4_2_tt ul .hover5{ margin-left:-5px; z-index:2}
+.main4_2_tt ul .hover6{ margin-left:-5px; z-index:1}
+.main4_2_tt ul .main4_2_hover{ z-index:777; color:#FFFFFF}
+
+.main4_2_content{ width:100%; height:856px; overflow:hidden; display:none; background:#FFFFFF}
+.img4_2{ width:510px; height:145px; margin:38px auto 27px auto}
+.main4_2_content p{ width:636px; line-height:24px; color:#434343; margin:0 auto}
+
+
+
+
+
+/*end 4.2*/
+
+
+/*5*/
+.main5_content{ height:292px}
+.main5_content2{ width:100%; height:534px; overflow:hidden; display:none; background:#FFFFFF}
+.main5_content_ul{ width:725px; height:250px}
+.main5_content_ul li{ width:181px; height:250px; display:inline; float:left; overflow:hidden;}
+/*.main5_content_ul li .main5_content_ul1{ width:181px; height:178px; overflow:hidden; display:table-cell; text-align:center; vertical-align:middle;}
+.main5_content_ul li .main5_content_ul1 i{*display:inline-block;*height:100%;*vertical-align:middle;}
+.main5_content_ul li .main5_content_ul1 img{  margin:0 auto;*vertical-align:middle;}
+*/
+.main5_content_ul li .main5_content_ul1{ width:181px; height:178px; overflow:hidden; text-align:center;}
+.main5_content_ul li .main5_content_ul1 img{margin-top:32px;}
+.main5_content_ul li .main5_content_ul2{ width:100%;  color:#464646; line-height:18px; text-align:center}
+.main5_content_ul li .main5_content_ul2 a{ display:block; color:#990000; font-weight:bold; font-family: "arial";}
+.main5_content_ul li .main5_content_ul2 i{display:block; width:151px; padding:0 15px; font-style:normal; overflow:hidden;}
+.main5_content_ul li .main5_content_ul2 i p{width:auto; line-height:18px;}
+
+
+
+/*end 5*/
+
+
+/*6.1*/
+.head_bottom6{ background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY6_1_2_03.jpg) repeat-x}
+.middle6_1{ background:#DCDCDC; overflow:hidden; position:relative; top:-1px}
+.middle6_1_new_t{ width:100%; height:5px; position:absolute; top:0; /*background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY6_new_06.jpg) top repeat-x*/}
+.middle6_1_new_b{ width:100%; height:4px; position:absolute; bottom:0; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY6_new_63.jpg) bottom repeat-x}
+.middle_main6_1{ width:1002px;  margin:4px auto 16px auto}
+.main6_1_nav{ width:100%; height:34px; line-height:34px; background:#F5F5F5}
+.main6_1_nav p{ padding-left:30px}
+.main6_1_nav p a{ color:#898888}
+.main6_1_column4{ width:100%; height:162px; margin-top:3px}
+.column6_1{ width:248px; height:161px; border-top:1px solid #FFFFFF; display:inline; float:left; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY_6_1_2_07.jpg) repeat-x; margin-right:3px}
+.column6_1 span{ display:block; font-size:18px; font-weight:bold; margin:31px 0 16px 62px}
+.column6_1 p{ width:158px; color:#999999; text-align:left; line-height:16px; margin:0 0 17px 62px}
+.column6_1 a{ display:block; width:128px; height:23px; text-indent:16px; line-height:23px; color:#000000; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY6_bg2.jpg) no-repeat; margin-left:62px}
+.column6_1 a:hover{color:#FFFFFF; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY6_bg1.jpg) no-repeat}
+.column6_1 .column6_1_a_hover{ color:#FFFFFF; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY6_bg1.jpg) no-repeat}
+
+
+.search6_1{ width:100%; height:101px; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY6_1_10.jpg) repeat-x; margin-top:4px}
+.search6_1_box1{ width:240px; height:100%; line-height:101px; font-size:28px; color:#FFFFFF; text-indent:85px; display:inline; float:left}
+.search6_1_box2{ width:762px; height:100%; display:inline; float:left}
+.search6_1_box2 p{ color:#FFFFFF}
+.search6_1_box2 a{ color:#FFFFFF; text-decoration:underline}
+.input1{ width:525px; height:20px; line-height:20px; color:#888888; text-indent:3px; background:#FFFFFF; border:none}
+.input2{ width:100px; height:24px; cursor:pointer; vertical-align:middle; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY6_1_13.jpg) no-repeat; border:none; margin:-6px 0 0 21px}
+
+
+.main6_1_content{ width:100%; height:889px; background:#FFFFFF; margin-top:4px}
+.main6_1_content_left{ width:1002px; height:100%;  display:inline; float:left}
+.left6_1_tt{ width:100%; height:56px; line-height:56px; text-indent:34px; font-size:16px; font-weight:bold; border-top:1px solid #C5C5C5; position:relative}
+.left6_1_tt div{ width:4px; height:5px; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY6_1_2_31.jpg) no-repeat; position:absolute; top:-1px}
+.left6_1_th_box1{ width:708px; height:100%; display:inline; float:left}
+.left6_1_th_box2{ width:122px; height:100%; line-height:56px; text-align:center; display:inline; float:left}
+.left6_1_th_box3{ width:94px; height:100%; line-height:56px; text-align:center; display:inline; float:left}
+.left6_1_tb{ width:100%}
+.left6_1_tb li{ width:100%; height:116px}
+.left6_1_tb li div{ line-height:116px}
+.left6_1_tb li .left6_1_th_box1{ text-indent:29px; font-size:13px; text-align:left;}
+.left6_1_tb li .left6_1_th_box1 a{ color:#990000}
+.left6_1_tb li .left6_1_th_box1 a:hover{text-decoration:underline;}
+.left6_1_tb li .left6_1_th_box2,.left6_1_tb li .left6_1_th_box3{ color:#8D8D8D}
+.left6_1_tb li div img{  margin:45px auto 0 auto}
+.more6_1{ width:100%; height:35px; line-height:35px; text-align:right}
+.more6_1 a{ color:#990000; margin-right:25px}
+
+
+
+
+.left6_1_nav{ width:100%; height:40px; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY6_1_21.jpg) repeat-x}
+.left6_1_nav ul{ height:100%;}
+.left6_1_nav ul li{ height:100%; display:inline; float:left; cursor:pointer; position:relative; font-size:14px; color:#000000; line-height:40px; text-align:center; padding:0 25px}
+.left6_1_nav ul .left6_1_nav_hover{ background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY6_1_25.jpg) repeat-x}
+.left6_1_nav ul .left6_1_nav_hover .left6_1_nav_l{ width:6px; height:100%; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY6_1_23.jpg) no-repeat; position:absolute; left:0; top:0}
+.left6_1_nav ul .left6_1_nav_hover .left6_1_nav_r{ width:6px; height:100%; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY6_1_27.jpg) no-repeat; position:absolute; right:0; top:0}
+.left6_1_th{ width:100%; height:54px; overflow:hidden; border-bottom:1px solid #C3C3C3}
+.show6_1{ display:none;}
+
+
+
+
+.main6_1_content_right{ width:291px; height:100%; display:inline; float:left}
+.main6_1_content_right_column1{ width:100%; height:126px; position:relative; border-top:1px solid #C5C5C5; border-bottom:1px solid #C5C5C5}
+.main6_1_content_right_column1_l{ width:5px; height:128px; position:absolute; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY6_1_18.jpg) no-repeat; left:0; top:-1px}
+.main6_1_content_right p{ line-height:30px; color:#666666; padding:18px 0 0 19px}
+.main6_1_content_right p span{ display:block; color:#000000; font-size:16px; font-weight:bold}
+.main6_1_content_right p a{ color:#990000}
+
+
+.main6_1_content_right_column2{ width:100%; height:205px; position:relative; border-bottom:1px solid #C5C5C5}
+.main6_1_content_right_column2_l{ width:5px; height:4px; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY6_1_42.jpg) no-repeat; position:absolute; left:0; bottom:-1px}
+
+
+
+
+.main6_1_content_right_column3{ width:100%; height:555px; border-bottom:none}
+.main6_1_content_right .main6_1_content_right_column3_list{ color:#666666; line-height:20px; padding:7px 0 0 19px}
+.main6_1_content_right .main6_1_content_right_column3_list span{ color:#666666; display:inline; font-size:12px}
+
+
+/*end 6.1*/
+
+
+
+
+
+
+
+/*6.2*/
+.main6_2_content{ width:890px; margin:0 auto}
+.main6_2_content .left6_1_tb li{ height:88px;}
+.main6_2_content .left6_1_tb li div{ line-height:88px}
+.main6_2_content .left6_1_tb li div img{ margin-top:34px}
+.main6_2_content .left6_1_tb li .left6_1_th_box1,.left6_1_th .left6_1_th_box1{ width:597px}
+.main6_2_content .left6_1_tb li .left6_1_th_box1{ text-indent:10px}
+.main6_2_content .left6_1_tb li .left6_1_th_box2,.left6_1_th .left6_1_th_box2{ width:164px}
+.main6_2_content .left6_1_tb li .left6_1_th_box3,.left6_1_th .left6_1_th_box3{ width:129px}
+
+
+
+
+/*end 6.2*/
+
+
+
+
+/*6.3*/
+.main6_3_content .left6_1_tb li{ height:38px;}
+.main6_3_content .left6_1_tb li div{ font-size:12px; line-height:38px}
+.main6_3_content .left6_1_tb li div a{ color:#000000}
+.main6_3_content .left6_1_tb li .left6_1_th_box1{ background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY6_3_03.jpg) 25px center no-repeat; text-indent:47px}
+
+
+
+
+/*end 6.3*/
+
+
+
+
+
+/*6.4*/
+.main6_4_content_top{ width:100%; height:478px}
+.main6_4_content_left{ width:300px; height:100%; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CT6_4_03.jpg) center 92px no-repeat; display:inline; float:left}
+.main6_4_content_right{ width:570px; height:100%; display:inline; float:left}
+.main6_4_content_tt{ font-size:22px; color:#990000; margin:52px 0 10px 0}
+.main6_4_content_ul{ width:100%}
+.main6_4_content_ul li{ width:100%; height:82px; border-bottom:1px solid #C3C3C3; overflow:hidden}
+.main6_4_content_ul li i{  color:#333333; margin-top:17px;font-style:normal;}
+.main6_4_content_ul li i span p{line-height:16px;}
+.main6_4_content_ul li span{ display:block;margin:8px 0;}
+.main6_4_content_ul_tt{ font-weight:bold}
+
+
+
+
+/*end 6.4*/
+
+
+
+/*7*/
+/*.banner7{ height:217px;}*/
+.middle7{ background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/yf_7_bannerbj.jpg) repeat;}
+.leftside_7{ float:left; width:231px;}
+.leftitle_7{ color:#030303; font-family:"微软雅黑"; font-size:18px; display:block; width:149px; height:38px;padding:35px 0 0 80px;
+ font-weight:bold; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/yf_7_leftop.jpg) no-repeat;}
+.leftside_7 ul{ margin-top:15px;*margin-top:7px; display:block; width:231px; height:auto;}
+.leftside_7 ul li{ width:231px; height:46px; line-height:46px; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/yf_7_li.jpg) no-repeat; margin-top:8px;}
+.leftside_7 ul li a{ color:#666666; font-family:"微软雅黑"; font-size:14px; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/yf_7_gray.gif) no-repeat left;
+padding-left:54px; margin-left:35px;}
+.leftside_7 ul li a:hover{ color:#cc0000; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/yf_7_red.gif) no-repeat left;}
+.leftside_7 ul li.lefon a{color:#cc0000; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/yf_7_red.gif) no-repeat left;}
+
+.left7_bottom{ width:100%; height:316px; background:#f8f8f8; margin-top:10px;}
+
+.right7{float:left; width:725px; min-height:676px; height:auto; _height:676px; background:#f8f8f8; margin:0 0 0 7px;}
+.right7_title{ width:637px; height:39px; line-height:39px; margin:28px 0 0 34px; border-bottom:1px solid #e6e5e5; color:#c00; font-family:"微软雅黑"; font-size:18px; padding-left:18px;}
+.right7_conten{ padding:30px 58px 66px 46px;}
+.right7_conten p{ color:#333333; font-family:"微软雅黑"; font-size:14px; line-height:22px; }
+
+
+
+/*8*/
+.right7 ul{width:655px; margin:0 0 0 34px; padding-bottom:23px; border-bottom:1px solid #e6e5e5;}
+.right7 ul li{ width:655px; height:95px; margin-top:33px;}
+.right7 ul li img{float:left; margin-right:20px;}
+.right7 ul li i{ float:left;font-style:normal; font-weight:bold; display:block; font-size:14px; color:#010101; width:503px; 
+margin-top:4px;_line-height:16px;}
+.right7 ul li i a{color:#010101;}
+.right7 ul li i a:hover{cursor:pointer; color:#f00;}
+.right7 ul li span{float:left;font-size:12px; color:#a89390; margin-top:5px;}
+.right7 ul li p{float:left; color:#616362; line-height:19px;width:503px; height:57px; overflow:hidden; margin-top:3px;}
+.pagebar{ text-align:center; margin-top:25px;}
+
+
+/*9.1*/
+.middle_main9_1{ width:100%; height:215px; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY9_1_03.jpg) repeat;}
+.middle_main9_1_box{/* width:1440px;*/ height:100%; margin:0 auto}
+.middle_main9_1_b{ padding:11px 0 16px 0}
+.middle_main9_1_tt{ width:964px; height:120px; margin:10px auto 0px auto}
+.middle_main9_1_tt img{ width:235px; height:120px; display:inline; float:left; margin-right:8px}
+.middle_main9_1_content{ width:964px; min-height:505px; height:auto; _height:505px; overflow:hidden; _overflow:visible; position:relative; z-index:1000; background:#FFFFFF; margin:0 auto}
+.middle_main9_1_list{ width:739px; height:auto; margin:30px auto}
+.middle_main9_1_list div{ width:100%; height:40px; position:relative; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/CY9_1_16.jpg) bottom repeat-x}
+.middle_main9_1_list .hidden{ background:none}
+.main9_1_list_tt{ height:40px; line-height:40px; font-size:14px; font-weight:bold; color:#666666; text-indent:15px; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/arrow_16.jpg) 1px center no-repeat; display:inline; float:left; cursor: pointer;}
+.main9_1_list_ex{ height:40px; line-height:40px; color:#CA0311; display:inline; float:right; cursor:pointer; margin-right:8px}
+.middle_main9_1_ul{ width:722px;  margin-left:17px}
+.middle_main9_1_ul li{ width:100%; height:27px; line-height:27px; color:#7A7979; background:#EFEFEF; margin-bottom:1px}
+.middle_main9_1_ul li span{ width:142px; display:inline; float:left; text-align:center}
+.middle_main9_1_ul li a{ width:154px; display:inline; float:left; text-indent:35px; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/point_16.jpg) 27px center no-repeat; color:#7A7979}
+
+
+
+
+/*end 9.1*/
+
+/*9.2*/
+.yf_9_2_content{ width:877px; margin:16px auto;}
+.yf_9_2_cname{color:#cc0000; font-family:"微软雅黑"; font-size:18px; height:39px; line-height:39px; border-bottom:1px solid #e6e5e5;
+padding-left:7px; margin-bottom:4px;}
+.yf_9_2_position{ float:left;width:678px; height:36px; line-height:36px; background:#f3f2f0;color:#000; font-family:"微软雅黑"; font-size:14px;padding-left:17px;}
+.yf_9_2_mail{ float:left; width:124px; height:36px; line-height:36px; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/yf_9_2_mailbj.jpg) no-repeat;
+color:#000; font-family:"微软雅黑"; font-size:14px; padding-left:54px; margin-left:4px;}
+.yf_9_2_content p{ line-height:22px; color:#333333; font-size:13px;}
+
+
+
+/*10.1*/
+.yf_10_1_middle{ width:100%; background:#fff url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/yf_10_1_bj.jpg) repeat-x; min-height:500px; _height:500px;}
+.yf_10_1_main{ width:963px; margin:0 auto; min-height:500px; _height:500px; padding-top:10px;}
+.yf_10_1_main span.dl{ color:#000; font-family:"微软雅黑"; font-size:24px; margin-left:16px; overflow:hidden;}
+.yf_10_1_main span.dl i{color:#666; font-family:"微软雅黑"; font-size:18px; font-style:normal; padding-left:12px;}
+.yf_10_1_box{ margin:20px 0 0 12px;}
+.yf_10_1_boxmain{ float:left;width:931px; height:233px; border-top:1px solid #e8e8e8; border-bottom:1px solid #e8e8e8;}
+
+.yf_10_1_table{width:275px;margin:50px 0 0 160px; float:left;_margin-left:80px;}
+.yf_10_1_table tr td{ height:33px; _line-height:33px; color:#333; font-size:14px;}
+.yf_10_1_table tr td a{ text-decoration:underline; color:#006699; font-size:12px; padding-right:10px;}
+.yf_10_1_table tr td input{width:224px; height:21px; border:1px solid #d0d0d0;}
+.yf_10_1_table tr td input.yf_10_1_dl{ width:79px; height:29px; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/yf_10_1_dl.jpg) no-repeat; border:0 none;
+cursor:pointer;}
+
+.yf_10_1_boxright{float:left; margin:30px 0 0 100px; width:370px; color:#666666;}
+.yf_10_1_boxright h1{ font-size:20px; font-weight:normal;}
+.yf_10_1_boxright span{ font-size:14px; line-height:22px; display:block; margin-top:32px;}
+.yf_10_1_zc{ width:134px; height:38px;  background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/yf_10_1_zcbj.jpg) no-repeat; text-align:center;
+color:#fff; font-family:"微软雅黑"; font-size:20px; border:0 none; margin-top:20px; cursor:pointer;}
+
+/*10.2*/
+.yf_10_2_zc{ width:410px; margin:50px 0 0 130px;}
+.yf_10_2_zc tr td{ height:33px; _line-height:33px; color:#333; font-size:14px;}
+.yf_10_2_zc tr td input.yf_10_2_srk{width:235px; height:21px; border:1px solid #d0d0d0; margin-left:20px;}
+.yf_10_2_zcbutton{ width:94px; height:29px; text-align:center; border:0 none; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/yf_10_2_zc.jpg) no-repeat;
+margin:15px 0 0 14px;cursor:pointer;}
+
+/*10.3*/
+.yf_10_3_submit{width:94px; height:29px; text-align:center; border:0 none; background: url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/yf_10_3_tj.jpg) no-repeat;
+margin:15px 0 0 20px;cursor:pointer;}
+.yf_10_3_cancel{width:94px; height:29px; text-align:center; border:0 none; background: url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/yf_10_3_qx.jpg) no-repeat;
+margin:15px 0 0 14px;cursor:pointer;}
+
+/*11*/
+.yf_11_box1main{ float:left; width:939px;min-height:500px;_height:500px; /*height:458px;*/ border-left:1px solid #e8e8e8; border-right:1px solid #e8e8e8; }
+.yf_11_box1main h1{color:#666; font-family:"微软雅黑"; font-size:20px; font-weight:normal; margin:10px 40px 20px;}
+.yf_11_address{ float:left; /*width:358px;*/ line-height:22px; /*margin:35px 0 0 84px;*/margin:0 40px; _margin-left:42px;}
+.yf_11_address span{ font-size:14px; color:#666; display:block;}
+
+.yf_11_ly{ width:782px; margin:30px 0 0 77px;}
+.yf_11_ly tr td{ height:33px; _line-height:33px; color:#333; font-size:14px;}
+.yf_11_ly tr td input{ width:274px; height:21px; border:1px solid #d0d0d0; margin-left:20px;}
+.yf_11_mailtext{border:1px solid #d0d0d0; width:274px; height:87px;margin:7px 0 0 20px;}
+.yf_11_ly tr td input.yf_11_send{ width:134px; height:38px;  background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/yf_10_1_zcbj.jpg) no-repeat; text-align:center;
+color:#fff; font-family:"微软雅黑"; font-size:20px; border:0 none; margin-top:7px; cursor:pointer;}
+
+.view{ width:106px; height:25px; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/yf_11_message.jpg) no-repeat; text-align:center; line-height:25px; float:right; margin:14px 12px 0 0;}
+.view a{color:#fff;}
+.yf_11_answer{ width:945px; margin:13px 0 20px 12px; display:none;}
+.yf_11_answer_red{ color:#af0000; text-align:right;}
+.yf_11_answer tr td{ height:38px; line-height:20px;}
+
+
+
+.main5_content{ overflow:hidden; position:relative}
+.main5_content_ul_all{ width:auto; position:absolute; left:0}
+.main5_page{ height:30px; line-height:30px; position:absolute; right:0; bottom:-10px; z-index:10000; padding:0 10px}
+.main5_page p{float:left; color:#fff; width:18px; height:18px;line-height:18px; text-align:center; cursor:pointer; margin-left:1px;background:#555555; }
+/*.main5_page p.fenyeon{background:#ab1600; color:#fff; width:18px; height:18px; text-align:center;}
+.main5_page p.fenyeout{background:#555555; color:#fff; width:18px; height:18px; text-align:center;}*/
+
+
+
+.main4_1{ width:725px; min-height:886px; height:auto; _height:886px; display:inline; float:left}
+.main4_1_content{ width:100%; min-height:766px; height:auto;_height:600px;overflow:hidden; display:none; background:#FFFFFF}
+
+.cjwt{border-bottom: 5px solid #E3E3E3;color: #990000;font-size: 16px;font-weight: bold;height:24px;margin:0 0 36px 0;padding:40px 0 0 0;width: 100%;}
+.gzpc_title{color: #000000;font-size: 14px;font-weight: bold;padding-bottom: 5px;}
+.gzpc_content{border: 1px solid #D6D6D6; padding:30px 0 30px 10px;}
+.gzpc_content p{line-height:24px;}
+
+/*banner*/
+.banner_index .banner_ul{ width:963px; height:422px; position:absolute}
+.banner_index .banner_ul li{ display:inline; float:left}
+
+
+.yfnews_title{text-align:center; font-size:18px;margin-bottom:10px; font-family:"黑体"}
+
+/*获得荣誉*/
+#honor_list{ border:none; margin:0;}
+#honor_list li{float:left; width:155px; height:auto; margin:16px 0 0 45px;}
+#honor_list li span{ color:#666; display:block; width:155px; margin-top:3px; line-height:18px;}
+
+.search_box{width:201px; height:31px; background:url(/web/20181015091740im_/http://www.bestchainsawss.com/Site/default/theme/image/bg_search_box.jpg) no-repeat; float:right; margin:12px 20px 0 0;}
+.search_box #query{float: left; width: 159px; border: 0 none; outline:none; background: none repeat scroll 0 0 transparent; margin: 6px 0 0 6px; padding: 0;}
+.search_box #work_go{float: right;  margin: 3px 4px 0 0;}
+
+
+/*20160120*/
+.right7 ul.searchlist{min-height: 50px;margin: 20px auto; border-bottom: 0;}
+.right7 ul.searchlist li{ line-height: 36px; border-bottom: 1px dashed #ccc; margin-top: 0;height:36px;}
+.right7 ul.searchlist li span{float: right;_display:inline;margin-top:0;}
+.right7 ul.searchlist li a:hover{color: #AB1600;}
+
+/*20160127*/
+.banner_index img,.middle_main9_1_box img{display:block;margin:0 auto;height:422px;}
+.banner_btn img{ display:inline; float:left; cursor:pointer; position:absolute;height:10px; }
+.home{width:1440px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 09:17:40 Oct 15, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:34:08 Jan 04, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 136.362 (3)
+  RedisCDXSource: 0.93
+  PetaboxLoader3.resolve: 1430.96
+  exclusion.robots: 0.162
+  captures_list: 162.983
+  load_resource: 1719.229
+  PetaboxLoader3.datanode: 184.48 (4)
+  exclusion.robots.policy: 0.152
+  esindex: 0.013
+  CDXLines.iter: 21.199 (3)
+*/
